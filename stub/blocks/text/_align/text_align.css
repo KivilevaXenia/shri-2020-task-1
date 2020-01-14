@@ -1,0 +1,7 @@
+/*Горизонтальное выравнивание текста*/
+.text_align_center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}

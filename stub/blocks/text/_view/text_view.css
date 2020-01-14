@@ -1,0 +1,15 @@
+.text_view_primary {
+    --color: var(--color-main);
+}
+
+.text_view_secondary {
+    --color: var(--color-secondary);
+}
+
+.text_view_ghost {
+    --color: var(--color-addition);
+}
+
+.text_view_link {
+    --color: var(--color-link);
+}

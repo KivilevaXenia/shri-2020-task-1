@@ -1,0 +1,17 @@
+.informer__content_distribute_default {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+}
+
+.informer__content_distribute_between {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.informer__content_distribute_center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

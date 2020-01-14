@@ -1,0 +1,18 @@
+.onoffswitch {
+    width: 97px;
+    height: 32px;
+    border: 2px solid var(--color-border);
+    display: flex;
+    align-items: center;
+}
+
+.onoffswitch__button {
+    width: 24px;
+    height: 24px;
+    background-color: var(--color-border);
+    margin: 2px;
+}
+
+.onoffswitch_checked {
+    flex-flow: row-reverse;
+}

@@ -1,0 +1,14 @@
+.card__footer_distribute_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__footer_distribute_center {
+    display: flex;
+    justify-content: center;
+}
+
+.card__footer_distribute_right {
+    display: flex;
+    justify-content: right;
+}

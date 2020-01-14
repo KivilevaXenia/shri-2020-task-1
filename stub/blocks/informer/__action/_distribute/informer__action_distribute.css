@@ -1,0 +1,13 @@
+.informer__action_distribute_default {
+    display: flex;
+    justify-content: inherit;
+}
+
+.informer__action_distribute_between {
+    display: flex;
+    justify-content: space-between;
+}
+.informer__action_distribute_center {
+    display: flex;
+    justify-content: center;
+}

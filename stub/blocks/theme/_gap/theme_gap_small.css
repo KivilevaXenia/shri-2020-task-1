@@ -1,0 +1,15 @@
+@media (min-width:960px) {
+
+    .theme_gap_small {
+        --gap: var(--space-xxxl);
+    }
+
+}
+
+@media (min-width:320px) {
+
+    .theme_gap_small {
+        --gap: var(--space-m);
+    }
+
+}

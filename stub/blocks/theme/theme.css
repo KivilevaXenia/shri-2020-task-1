@@ -1,0 +1,24 @@
+@media screen and (max-width: 1144px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        background-color: var(--background-color-default);
+    }
+    div {
+        /* margin: auto; */
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.theme {
+    background-color: var(--background-color-default);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: stretch;
+    align-items: center;
+}

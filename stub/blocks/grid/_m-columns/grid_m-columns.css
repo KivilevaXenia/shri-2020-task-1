@@ -1,0 +1,13 @@
+:root {
+    --screen-m: 1144px;
+}
+
+.grid_m-columns_12 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.grid_m-columns_10 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}

@@ -1,0 +1,7 @@
+.grid_row-gap_full {
+    grid-row-gap: var(--gap);
+}
+
+.grid_row-gap_half {
+    grid-row-gap: calc(var(--gap) / 2);
+}

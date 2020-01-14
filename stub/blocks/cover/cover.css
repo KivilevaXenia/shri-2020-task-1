@@ -1,0 +1,29 @@
+.cover {
+    min-height: 472px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cover__info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cover__preview {
+    margin-bottom: var(--space-l);
+    height: 180px;
+}
+
+.cover__footer {
+    height: var(--space-l);
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+}
+
+.cover__footer .button {
+    align-self: center;
+}

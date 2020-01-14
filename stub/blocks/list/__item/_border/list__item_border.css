@@ -1,0 +1,13 @@
+.list__item_border_bottom {
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-border);
+}
+
+.list__item_border_bottom:last-child {
+    border-bottom: none;
+}
+
+.list__item_border_top {
+    border-top-style: solid;
+    border-top-color: var(--color-border);
+}

@@ -1,0 +1,14 @@
+.footer {
+    margin: var(--space-xxxl) var(--gap);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--background-color-default);
+}
+
+.footer__content {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

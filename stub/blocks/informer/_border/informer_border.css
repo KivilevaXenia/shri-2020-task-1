@@ -1,0 +1,5 @@
+.informer_border_all {
+    border-style: solid;
+    border-color: var(--color-border);
+    border-width: 3px;
+}

@@ -1,0 +1,10 @@
+.warning__content {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.warning__content .text {
+    flex-grow: 1;
+}

@@ -1,0 +1,38 @@
+.event {
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event__preview {
+    margin-bottom: var(--space-xxl);
+    display: flex;
+}
+
+.event__title {
+    margin-bottom: var(--space-s);
+}
+
+.event__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.event__speaker {
+    margin-right: var(--space-xs);
+}
+
+.event__description {
+    flex-grow: 1;
+    display: flex;
+}
+
+.event__description .text {
+    display: flex;
+    align-content: space-evenly;
+}
+
+.event__footer {
+    position: relative;
+}
