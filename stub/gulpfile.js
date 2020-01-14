@@ -1,7 +1,6 @@
 const gulp = require('gulp');
 const debug = require('gulp-debug');
 const concat = require('gulp-concat');
-const merge = require('merge2');
 
 const Builder = require('gulp-bem-bundle-builder');
 const bundlerFs = require('gulp-bem-bundler-fs');
@@ -46,7 +45,7 @@ gulp.task('build', function() {
                 bundle.src('js')
                     .pipe(concat('script.js'))
         }))
-        .pipe(gulp.dest('build'))
+        .pipe(gulp.dest('../build'))
         .pipe(debug());
 });
 
