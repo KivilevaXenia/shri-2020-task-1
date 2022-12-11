@@ -12,7 +12,7 @@
     "autoprefixer": "^7.1.1",
     "bem-xjst": "^8.9.6",
     "browser-sync": "^2.26.7",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp": "^4.0.0",
     "gulp-bem-bundle-builder": "^0.1.5",
     "gulp-bem-bundler-fs": "0.0.10",
